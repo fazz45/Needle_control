@@ -1,0 +1,33 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Colcon
+.colcon/
+colcon.meta
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VSCode
+.vscode/
+
+# macOS junk
+.DS_Store
+
+# Backup files
+*~
+
+# Logs
+*.log
