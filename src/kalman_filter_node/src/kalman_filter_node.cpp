@@ -45,7 +45,7 @@ private:
     // ROS interfaces
     rclcpp::Subscription<geometry_msgs::msg::Vector3>::SharedPtr cmd_sub_;
     rclcpp::Subscription<geometry_msgs::msg::Point>::SharedPtr meas_sub_;
-    rclcpp::Publisher<geometry_msgs::msg::Pose>::SharedPtr est_pub_;
+    rclcpp::Publisher<geometry_msgs::msg::Point>::SharedPtr est_pub_;
     rclcpp::TimerBase::SharedPtr timer_;
 
     // Kalman state
